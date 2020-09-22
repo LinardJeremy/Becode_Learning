@@ -1,1 +1,2 @@
 # Becode_Learning
+Ce dépôt contient une partie des exercices réalisés dans le cadre de la formation **Becode** à Charleroi. Chaque dossier contient un exercirce ou parcours de la formation. Ceux-ci, ont été réalisé par moi-même à l'exception de l'exercice cadavre-exquis qui lui, est le résultat d'un travail collaboratif. 
