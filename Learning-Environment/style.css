@@ -1,0 +1,31 @@
+body {
+    background-color: aquamarine;
+    font-size: larger;
+    text-align: center;
+}
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: block;
+}
+#firstDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+#divGlobal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+#imgCode {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#firstLi {
+    list-style-type: none;
+}

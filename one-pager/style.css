@@ -1,0 +1,143 @@
+body {
+    display:flex;
+    flex-direction: column;
+
+}
+
+/*style Header */
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+}
+
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+/*style Header */
+
+
+/* style div logo */
+.logoDiv {
+    background-image: url(img/fond.png);
+}
+.logoDiv img{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+
+/* style div logo */
+
+/* style div citation */
+.divCitation {
+    background-color: rgb(27, 109, 160);
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.divCitation a:visited {
+    color:blue;
+}
+
+/* style div citation */
+
+
+/* style contenu central */
+.conteneur {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article {
+background-image: url(img/fond.png);
+height: auto;
+width: 100%;
+
+}
+.barrePartenaire {
+    
+    width: 100%;
+    background-color: rgb(27, 109, 160);
+}
+.barrePartenaire h2 {
+    text-align: center;
+}
+.barrePartenaire ul {
+    width: 700px;
+    margin-top: 30px;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.barrePartenaire li {
+ margin-top: 15px;
+ display: inline-block;
+ margin-left: 45px;
+}
+.pArticle{
+    text-align: center;
+    font-size: 25px;
+
+}
+#src{
+    font-size: 10px;
+    text-align: center;
+}
+.article a:visited {
+    color: blue;
+}
+
+.article h1 {
+    text-align: center;
+    margin-top: 75px;
+}
+.barrePartenaire p {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 75px;
+}
+/* style contenu central */
+
+/* style footer */
+
+footer {
+    height: auto;
+    width: 100%;
+    background-image: url(img/fond.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+#video {
+    margin-left: 450px;
+}
+
+
+/* style footer */

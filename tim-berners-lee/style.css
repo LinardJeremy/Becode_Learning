@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+}
+/*style div presentation */
+
+.presentation {
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    border: solid grey 1px;
+    height: 575px;
+    background-color: white;
+}
+.presentation img {
+    border-radius: 150px;
+    border: solid grey;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.presentation p {
+    font-family: sans-serif;
+    text-align: justify;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #7d7d7d;
+    font-size: 20px;
+}
+.presentation h1 {
+    color: #dd5555;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    font-style: sans-serif;
+}
+.presentation h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    color: #7d7d7d;
+
+}
+.presentation button{
+    width: 130px;
+    background-color: #dd5555;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+.presentation a {
+    text-decoration: none;
+}
+/*style div presentation */
+
+/* style div social media */
+.socialMedia {
+    background-color: white;
+    height: 250px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: solid grey 1px;
+    margin-top: 20px;
+}
+
+.socialMedia ul {
+    width: 700px;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 75px;
+}
+.socialMedia li {
+display: inline-block;
+margin-left: 40px;
+text-align: center;
+font-size: 30px;
+color: #7d7d7d;
+}
+/* style div social media */
+
+/* style div film */
+.film {
+    background-color: white;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid grey 1px;
+    margin-bottom: 30px;
+}
+.film h1{
+    color:#7d7d7d;
+    text-align: center;
+    margin-top: 40px;
+}
+.film img {
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.filmP {
+    display: flex;
+}
+.titreEtP {
+    text-align: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #7d7d7d;
+
+}
+.titreEtP p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* style div film */

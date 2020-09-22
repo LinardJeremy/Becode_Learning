@@ -1,0 +1,189 @@
+body{
+    width: auto;
+    
+}
+
+.divBleu {
+    background-color: #1e93cc;
+    width: 100%;
+    height: 350px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.BandeBlanche{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* menu */
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    background-color: #333333;
+    height: 53px;
+}
+nav li {
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    margin: 15px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size : 12px;
+    margin-left: 55px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:visited{
+    color: white;
+}
+#log {
+
+    margin-left: 155px;
+    margin-right: 50px;
+}
+/* menu */
+
+/* organisation div header*/
+#divHeader{
+ display :flex;
+ 
+}
+.elementHeader1{
+    margin-top: 30px;
+    margin-left: 125px;
+}
+.elementHeader2{
+    flex: 1;
+    margin-left: 180px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* organisation div header*/
+
+/* style bouton start */
+.start{
+    background-color : #e99002;
+    color: white ;
+    border-radius: 5px;
+    border-color: white;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 50px;
+    margin-left: 35px;
+    display: inline-block;
+
+}
+/* style bouton start */
+
+ /* style deuxième div fond bleu*/
+#divTexteB {
+        display: flex;
+        height: auto;
+        color: white;
+        font-size: 18px;
+}
+.divTexteB1 h1{
+    display: inline-block;
+    color: white;
+    margin-bottom: 0px;
+}
+.divTexteB1 {
+    margin-left: 145px;
+    margin-top: 50px;
+
+}
+#divTexteB p {
+ margin-top: 15px;
+ margin-bottom: 30px;
+}
+.divTextB2 {
+    margin-left: 30px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 140px;
+}
+.divIcone {
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+/* style deuxième div fond bleu*/
+
+/* style div logo partenaire */
+.logoPartenaire{
+    background-color: #eeeeee;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.imageLogo{
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 55px;
+}
+.imageLogo2{
+    margin-left: 610px;
+    margin-right: 610px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+/* style div logo partenaire */
+
+/* style bouton bleu et div de la ligne des 3buttons */
+.buttonBleu {
+background-color : #165882;
+    color: white ;
+    border-radius: 5px;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 125px;
+    
+}
+#div3button {
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+#start2 {
+    margin-left: 0px;
+    margin-right:0px ;
+    margin-top: 60px;
+    margin-bottom: 125px;
+}
+/* style bouton bleu et div de la ligne des 3buttons */
+
+/* style menu footer */
+.menuFooter ul{
+    bottom: 0;
+    height: 50px;
+}
+.menuFooter li{
+    border-left:dashed;
+    height: 25px;
+    width: auto;
+    padding-left: 5px;
+    
+}
+#copyright{
+    border: none;
+    margin-left: 500px;
+}
+
+
+/* style menu footer */

@@ -1,0 +1,52 @@
+body{
+    background-image: url(img/pipe.jpg);
+     background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+nav li {
+    display: inline-block;
+    color: white;
+    font-size: 45px;
+    margin-left: 25px;
+}
+nav li a:visited {
+    color: blue;
+}
+.divPresentation h1 {
+    font-size: 50px;
+    color: red;
+    font-family: 'Anton', sans-serif;
+    text-shadow:  1px 1px 2px black;
+}
+.divPresentation p {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: #37C1BD;
+    text-shadow:  1px 1px 2px black;
+}
+.divPresentation {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.bouton {
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 150px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+    transition: width height opacity background-color 2s ;
+}
+button:hover {
+    width: 200px;
+    height: 100px;
+    opacity: 1;
+    background-color: blanchedalmond;
+  }
+  
+
+  

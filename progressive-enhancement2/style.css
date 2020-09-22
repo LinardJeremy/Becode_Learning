@@ -1,0 +1,78 @@
+body{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /*superpose le dégradé et l'image de fond pour trois navigateur différent*/
+    background: bottom right / cover no-repeat url("img/becodeLogo.png"),
+    -webkit-linear-gradient(top,#8EF5B1, #3E5CAE);
+    background : bottom right / cover no-repeat url("img/becodeLogo.png"),
+    -moz-linear-gradient(top,#8EF5B1, #3E5CAE);
+    background : bottom right / cover no-repeat url("img/becodeLogo.png"),
+    -o-linear-gradient(top,#8EF5B1,#3E5CAE); 
+     /*superpose le dégradé et l'image de fond pour trois navigateur différent*/
+    
+}
+
+p {
+    font-family: serif, Arial, helvetica;
+    font-size: 25px;
+    line-height: 150%;
+    color: rgb(54, 71, 23);
+}
+a:visited{
+    color: rgb(54, 71, 23);
+    
+    
+}
+a:link{
+    color: #0F236E;
+    font-weight: bolder;
+}
+a:hover{
+    color: red;
+    text-decoration: underligne;
+    font-size: 130%;
+}
+q{
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 160%;
+    background-color: #DCE2DA;
+    border-left: 3px solid #842e1b;
+    padding-left: 30px;
+    font-style: italic;
+}
+.citationFermier {
+    border-left-color: yellowgreen;
+}
+.citationVillageois{
+    border-left-color: violet;
+}
+header q{
+    background-color: yellow;
+}
+.bien{
+    text-transform: uppercase;
+    color:green;
+}
+.mal {
+    text-transform: uppercase;
+    color: red;
+
+}
+/* Coloration tableau */
+.ligneGrise {
+background-color: grey;
+}
+.ligneBlanche {
+    background-color: white;
+}
+#gensBien {
+    list-style-image: url(img/bien.png);
+}
+
+

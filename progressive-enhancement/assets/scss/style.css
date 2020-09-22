@@ -1,0 +1,286 @@
+@media all and (max-width: 725px) {
+  body {
+    background-color: #1e93cc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: white; }
+
+  html {
+    padding: 0;
+    margin: 0; }
+
+  img {
+    display: none; }
+
+  header {
+    margin: 0;
+    padding: 0;
+    display: flex; }
+
+  .logoTurlututu {
+    display: block;
+    margin-left: 2rem; }
+
+  .elementHeader2 {
+    color: white;
+    height: 30rem;
+    margin-top: 0;
+    font-size: 3rem; }
+    .elementHeader2 p {
+      margin-left: 2rem; }
+    .elementHeader2 .start {
+      margin-left: 3rem;
+      background-color: #e99002;
+      -webkit-border-radius: 5px;
+      -o-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: white;
+      height: 4rem;
+      width: 16rem;
+      font-size: 1.5rem;
+      border-color: white; }
+
+  nav {
+    background-color: #333333;
+    width: 5rem;
+    color: white;
+    height: 30rem;
+    margin-top: 0; }
+    nav ul {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+      margin-top: 1rem;
+      padding-top: 0; }
+      nav ul li {
+        margin-left: 0;
+        margin-top: 1rem; }
+        nav ul li a {
+          text-decoration: none;
+          color: white; }
+          nav ul li avisited {
+            color: white; }
+
+  .menuFooter {
+    display: none; }
+
+  .BandeBlanche {
+    margin-top: 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 100%; }
+
+  #div3button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 100%; }
+    #div3button .start {
+      background-color: #e99002;
+      -webkit-border-radius: 5px;
+      -o-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: white;
+      height: 4rem;
+      width: 10rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-color: white; }
+    #div3button .buttonBleu {
+      background-color: #165882;
+      -webkit-border-radius: 5px;
+      -o-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: white;
+      height: 4rem;
+      width: 10rem;
+      font-size: 1.5rem;
+      border-color: white; }
+
+  .paragraphB1 {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0; } }
+@keyframes myAnim {
+  to {
+    transform: translateX(225px);
+    color: #1e93cc; } }
+@media all and (min-width: 725px) {
+  body {
+    width: auto; }
+
+  .divBleu {
+    background-color: #1e93cc;
+    width: 100%;
+    height: 350px;
+    font-family: "Raleway", sans-serif; }
+
+  .BandeBlanche {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold; }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    background-color: #333333;
+    height: 53px; }
+  nav li {
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    margin: 15px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    margin-left: 55px; }
+    nav li a {
+      text-decoration: none;
+      color: white; }
+      nav li a:visited {
+        color: white; }
+
+  #log {
+    margin-left: 155px;
+    margin-right: 50px; }
+
+  #divHeader {
+    display: flex; }
+
+  .elementHeader1 {
+    margin-top: 30px;
+    margin-left: 125px; }
+
+  .elementHeader2 {
+    flex: 1;
+    margin-left: 180px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+
+  .start {
+    background-color: #e99002;
+    color: white;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-color: white;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    margin-right: 50px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .startB p {
+    text-align: center; }
+
+  .startB:hover {
+    background-color: #744a07; }
+
+  .startB:hover p {
+    animation-fill-mode: backwards;
+    animation: myAnim 1s;
+    text-align: center; }
+
+  #divTexteB {
+    display: flex;
+    height: auto;
+    color: white;
+    font-size: 18px; }
+
+  .divTexteB1 h1 {
+    display: inline-block;
+    color: white;
+    margin-bottom: 0px; }
+
+  .divTexteB1 {
+    margin-left: 145px;
+    margin-top: 50px; }
+
+  #divTexteB p {
+    margin-top: 15px;
+    margin-bottom: 30px; }
+
+  .divTextB2 {
+    margin-left: 30px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 140px; }
+
+  .divIcone {
+    margin-top: auto;
+    margin-bottom: auto; }
+
+  .logoPartenaire {
+    background-color: #eeeeee;
+    display: inline-block;
+    width: 100%;
+    height: auto; }
+
+  .imageLogo {
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 55px; }
+
+  .imageLogo2 {
+    margin-left: 610px;
+    margin-right: 610px;
+    margin-top: 50px;
+    margin-bottom: 60px; }
+
+  .buttonBleu {
+    background-color: #165882;
+    color: white;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 60px;
+    margin-bottom: 125px; }
+
+  #div3button {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+
+  #start2 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 60px;
+    margin-bottom: 125px;
+    border-color: grey; }
+
+  .menuFooter ul {
+    bottom: 0;
+    height: 50px; }
+
+  .menuFooter li {
+    border-left: dashed;
+    height: 25px;
+    width: auto;
+    padding-left: 5px; }
+
+  #copyright {
+    border: none;
+    margin-left: 500px; } }
+
+/*# sourceMappingURL=style.css.map */

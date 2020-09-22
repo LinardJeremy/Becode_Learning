@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+<img id="logo" src="https://becode.org/app/uploads/2020/03/cropped-becode-logo-seal.png" alt="" title="" />
+
+<ul id="firstLi">
+<li>Pour accéder aux différentes parties du projet veuillez cliquer sur les liens suivant</li>
+
+<li>Pour lire le README cliquez <a href="https://github.com/LinardJeremy/exercice-markdown/blob/master/README.md">ici</a></li>
+<li>Pour lire les consignes de l'exercice cliquez <a href="https://github.com/LinardJeremy/exercice-markdown/blob/master/consignes.md">ici</a></li>
+
+</ul>
+
+</header>
+
+<!--Premier div-->
+<div id="firstDiv">
+    <h2>Les niveaux de titres</h2>
+
+    <p>En Markdown on peut utiliser jusqu'à 6 niveaux de titres avec des "#":</p>
+
+    <p># Titre sera un titre de niveau 1.</p>
+
+    <p>## Titre sera un titre de niveau 2.</p>
+
+    <p>### Titre sera un titre de niveau 3.</p>
+
+    <p>Etc. jusque ###### Titre qui sera un titre de niveau 6.</p>
+
+    <h2>Le formatage de texte</h2>
+
+    <p>Le markdown permet de formater du texte avec une syntaxe simple.</p>
+
+    <h3>Italique</h3>
+
+  <p>Pour mettre du texte en italique il y a deux méthodes:</p>
+
+<ul>
+  <li>*exemple* donne <em>exemple</em>.</li>
+  <li>_exemple>_ donne <em>exemple</em>.</li>
+  </ul>
+
+<h3>Gras</h3>
+
+<p>La manière de mettre le texte en gras est similaire à l'italique mais on double les symboles:</p>
+
+<ul>
+<li>**exemple** donne <strong>exemple</strong>.</li>
+<li>__exemple__ donne <strong>exemple</strong>.</li>
+</ul>
+
+<h3>Barré</h3>
+
+<p>Pour ~~barrer~~ un mot ou une phrase, il suffit de l'encapsuler comme ceci ~~exemple~~.</p>
+
+</div>
+<!--Premier div-->
+
+
+<div id="divGlobal">
+
+  <h2>Les listes</h2>
+
+<p>Le Markdown nous permet de faire des listes, ordonnées ou non, avec la possibilité de les imbriquer.</p>
+
+<h3>Liste à puce</h3>
+
+<p>Pour réaliser une liste à puce, on peut utiliser des * ou des -.</p>
+
+<p>Pour faire une liste imbriquée il suffit de laisser un espace devant la ligne souhaitée.
+<p>
+- Par
+- exemple
+    - comme
+    - ceci
+- !
+Donne:</p>
+
+<ul>
+<li>Par</li>
+<li>exemple
+<li>comme</li>
+<li>ceci</li>
+<li>!</li>
+</ul>
+
+<h3>Liste ordonnée</h3>
+
+<p>Pour la liste ordonnée, c'est la meme syntaxe que pour la liste à puce sauf qu'on remplace les symboles par <code>1.</code>.
+<ul>
+1. Par
+1. exemple
+1. comme
+1. ceci
+1. !
+</ul>
+Donne:</p>
+
+<ol>
+<li>Par</li>
+<li>exemple</li>
+<li>comme</li>
+<li>ceci</li>
+<li>!</li>
+</ol>
+
+<h2>Code</h2>
+
+<p>Il y a plusieurs manières d'afficher du code en markdown. <br />
+Si le code est inline, il suffit de l'insérer dans des backticks : <code>var example = true</code> <br />
+Pour les blocks de code plus longs, il suffit de les décaler de 4 espaces :</p>
+
+<pre><code>if (isAwesome){
+  return true
+}
+</code></pre>
+
+<p>GitHub permet aussi d'afficher des blocks de code sans devoir les décaler, en insérant une ligne avec 3 backticks avant et après :</p>
+
+<p><code>
+if (isAwesome){
+  return true
+}
+</code></p>
+
+<p>Il est même possible d'avoir une coloration syntaxique du code. Pour ça il sufit de rajouter le nom de language utilisé sur la première ligne, juste après les 3 backticks :</p>
+
+<p><code>javascript
+if (isAwesome){
+  return true
+}
+</code></p>
+
+<h2>Extras</h2>
+
+<h3>Liens</h3>
+
+<p>GitHub gère de nombreux extras en markdown qui permettent de référencer et créer des liens vers d'autres personnes. Pour envoyer un comentaire à une personne en particulier, il suffit d'ajouter le symbole <code>@</code> juste devant son nom : Salut @fwauters, j'adore ton t-shirt !  </p>
+
+<h3>Checklists</h3>
+
+<p>Il faut reconnaître que les checklists sont vraiment cool :
+- [x] Elément coché
+- [ ] Elément non coché</p>
+
+<h3>Emojis</h3>
+
+<p>Pour afficher des emojis, il suffit d'écrire la référence de celui qu'on veut utiliser, encadrée par le symbole <code>:</code> <br />
+Voici quelques exemples :</p>
+
+<table>
+Code  Emoji
+<tr>
+   <td>:smile: &#128516;</td>
+  <td>:wink:  	&#128521;</td>
+  <td>:joy:   &#128515;</td>
+  <td>:yum:   &#128539;</td>
+  <td>:heart_eyes:   &#128525;</td>
+  <td>:mask:   &#128567;</td>
+
+</tr>
+</table>
+
+<h2>Insertion d’une image statique</h2>
+
+<p>Les images s'insèrent en mettant un point d'exclamation <code>!</code> devant les premiers crochets. Le texte entre crochets <code>[</code> <code>]</code> est le texte alternatif de l'image suivi du lien de l'image entre parenthèse <code>(</code> <code>)</code> exemple :</p>
+
+<blockquote>
+  <p><code>![Zozor](lien/url)</code></p>
+</blockquote>
+
+<p><img id="imgCode" src="https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-leverage-of-coding.jpg" alt="LearnToCode" title="" /></p>
+
+<h2>Insertion d’une image animée</h2>
+
+<p>C'est pareil que pour insérer une image statique avec une seul différence, le lien de l'image doit finir en <code>.gif</code> exemple:</p>
+
+<blockquote>
+  <p><code>![Chat](lien/url)</code></p>
+</blockquote>
+
+<p><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Chat" title="" /></p>
+
+<h2>Citations</h2>
+
+<p>Si vous souhaitez citer quelqu'un, utilisez le caractère <code>&gt;</code> avant la ligne et ce pour chaque ligne de texte à citer.  Exemple :</p>
+
+<blockquote>
+  <p><code>&gt; Ceci est un texte cité.</code></p>
+</blockquote>
+
+<h2>Les tables</h2>
+
+<p>Pour la création des tableaux, utiliser <strong>-</strong> pout les lignes horisontales, et un tuyau <strong>|</strong> pour les lignes verticales (<em>raccourci clavier:ALT 124</em>)</p>
+
+<h3>Les étapes a suivre pour obtenir le tableau ci</h3>
+
+<ol>
+<li>Ecrivez en-tête.</li>
+<li>Placez un tuyau.</li>
+<li>Ecrivez votre deuxième en-tête.</li>
+<li>Sautez la ligne.</li>
+<li>Divisez par les tirets.  </li>
+<li>Sautez la ligne.</li>
+<li>Ecrivez le contenu de votre texte1.</li>
+<li>Placez un tuyau.  </li>
+<li>Contenu de votre texte2.  </li>
+<li>Saut a la ligne.</li>
+<li>Contenu de texte3.  </li>
+<li>Placez un tuyeau.  </li>
+<li>contenu texte4.  </li>
+</ol>
+
+<p><em>(Pensez a bien alligner vos tuyaux ensemble)</em></p>
+
+<p>En-tête           |    En-tête2
+------------------|---------------
+Contenu texte1    |Contenu texte2
+Contenu texte3    |Contenu texte4</p>
+
+<h2>Liens automatiques</h2>
+
+<p>Les URL seront automatiquement convertis en lien cliquable.</p>
+
+<p><em>Ex:</em></p>
+
+<p>(<a href="https://twitter.com/explore"> https://twitter.com/explore)</a></p>
+
+<h2>Mentions</h2>
+
+<p>Pour mentionner une personne, précéder son nom d'utilisateur de <code>@</code>.</p>
+
+<p><em>Ex:</em></p>
+
+<p>Salut <a href="https://github.com/88aleksandra88">@88aleksandra88</a></p>
+
+</div>
+
+</body>
+
+</html>
